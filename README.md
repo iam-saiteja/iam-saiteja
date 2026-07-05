@@ -1,102 +1,153 @@
 <div align="center">
 
-<h1>Hey, I'm Sai Teja 👋</h1>
+# Thanniru Sai Teja
 
-<p>
-  <b>AI/ML Researcher · Open-Source Builder · B.Tech @ BVRIT</b>
-</p>
+### AI Systems Researcher · Building memory, attention & inference systems from first principles
 
-<p>
-  <a href="https://github.com/iam-saiteja"><img src="https://img.shields.io/github/followers/iam-saiteja?label=Follow&style=social" /></a>
-  <img src="https://komarev.com/ghpvc/?username=iam-saiteja&color=blue&style=flat" />
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Independent+AI+Researcher;Tabular+Foundation+Models+%26+Attention;Systems-level+ML+Engineering;B.Tech+CS+%28Data+Science%29+%40+BVRIT;Tech+Lead+%40+Stud+Entertainments&font=Fira+Code&center=true&width=560&height=45&color=58A6FF&vCenter=true&size=22&pause=1500)](https://git.io/typing-svg)
+
+[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://thannirusaiteja.me)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/thannirusaiteja)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:iamsaitejathanniru@gmail.com)
 
 </div>
 
 ---
 
-## 🧠 About Me
+## About Me
 
-- 🎓 4rd-year B.Tech student at **B V Raju Institute of Technology**, Hyderabad
-- 🔬 Building novel **memory architectures** for AI agents (HGDM, NCM)
-- 🤖 Passionate about **LLMs, AI Safety, and Superintelligence**
-- 💻 Running local LLMs on an RTX 3050 — optimizing for constrained hardware
-- 🌱 Currently exploring **Rust** for systems-level AI tooling
-- 📍 Based in **Hyderabad, India**
+I'm a B.Tech Computer Science (Data Science) student at **BVRIT Hyderabad**, currently working as **Tech Lead at Stud Entertainments**, with prior internship experience at **AWS, IBM, and Google**. Outside of coursework and internships, I run an independent research track focused on making large-model architectures — attention, memory, inference — work under real hardware constraints instead of just on paper.
 
----
+Most of what's here falls into three buckets:
 
-## 🚀 Featured Projects
+- 🧠 **Memory & attention architectures** for foundation models — designing systems that scale sub-quadratically without giving up retrieval quality
+- ⚙️ **Consumer-hardware inference engineering** — squeezing large-model workloads onto a single 4GB-VRAM GPU through quantization, caching, and prediction tricks
+- 🛠️ **Developer tooling** — small, sharp tools (compilers, package managers, UI libraries) that solve one problem cleanly
 
-| Project | Description | Stack |
-|---|---|---|
-| [**HGDM**](https://github.com/iam-saiteja/HGDM-Hierarchical-Gated-Delta-Memory) | Hierarchical Gated Delta Memory — novel AI memory architecture | Python |
-| [**FormatForge**](https://github.com/iam-saiteja/FormatForge) | AI-powered image transformer for platform-ready assets (Amazon, Spotify, Instagram) | Python · Streamlit · Gemini |
-| [**react-scroll-media**](https://github.com/iam-saiteja/react-scroll-media) | Cinematic scroll-driven image sequences for React | TypeScript |
-| [**ailang-py**](https://github.com/iam-saiteja/ailang-py) | Python library for AI-native language utilities | Python |
-| [**Event-Ticket-Booking-System**](https://github.com/iam-saiteja/Event-Ticket-Booking-System) | Full-stack ticket booking platform | HTML · CSS · JS |
-| [**Buzzer**](https://github.com/iam-saiteja/Buzzer) | Real-time buzzer app | HTML · JS |
-| [**Chaff**](https://github.com/iam-saiteja/Chaff) | Noise/distraction filtering tool | HTML |
-| [**SmartFarm**](https://github.com/iam-saiteja/SmartFarm) | AI-powered smart agriculture system | HTML |
+I evaluate my own work adversarially before anyone else gets to — if a result looks too good, I go find out why before I publish it.
 
 ---
 
-## 🛠️ Tech Stack
+## Featured Work
 
-**Languages**
+### Research & Model Architecture
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+<table>
+<tr>
+<td width="50%">
 
-**AI / ML**
+**[NCM — Native Cognitive Memory](https://github.com/iam-saiteja/NCM)**
+Tensor-based episodic memory with state-conditioned retrieval for AI systems. Uses a four-field distance function — semantic, emotional, state-conditioned, and temporal — as the native memory subsystem for agent-style architectures.
+`Python`
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)
-![OpenRouter](https://img.shields.io/badge/OpenRouter-6C47FF?style=flat)
+</td>
+<td width="50%">
 
-**Tools & Platforms**
+**[HGDM — Hierarchical Gated Delta Memory](https://github.com/iam-saiteja/HGDM-Hierarchical-Gated-Delta-Memory)**
+Custom sequence architecture trained and validated on Enwik8, with a gated delta-memory update rule for long-range hierarchical dependencies.
+`Python`
 
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=flat&logo=github&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+</td>
+</tr>
+</table>
+
+**Also in active development (not yet public):**
+- **ZS-ISAB** — a method for scaling TabPFN's attention from quadratic to linear complexity via seeded anchor selection, an online softmax accumulator, and a zero-shot attention mask — enabling 500K+ row inference on 4GB VRAM. Currently in iteration toward TMLR submission.
+- **PAS-Offload** — a consumer-GPU LLM inference engine combining CPU-side low-rank activation prediction, transposed column-major weight caching, and dynamic 2-bit weight slicing, benchmarked on an RTX 3050.
+
+### Tools & Systems
+
+<table>
+<tr>
+<td width="50%">
+
+**[AXIS](https://github.com/iam-saiteja/AXIS)**
+A small, rule-based, deterministic compiler that takes a plain app description and generates native Web, Android, and iOS UI code.
+`TypeScript`
+
+</td>
+<td width="50%">
+
+**[PyLite-Manager](https://github.com/iam-saiteja/PyLite-Manager)**
+A Tkinter GUI for managing Python virtual environments and pip packages — for when you don't want to remember venv flags.
+`Python`
+
+</td>
+</tr>
+</table>
+
+### Applied / Shipped
+
+<table>
+<tr>
+<td width="50%">
+
+**[FormatForge](https://github.com/iam-saiteja/FormatForge)** · [Live demo ↗](https://formatforge.streamlit.app/)
+Streamlit app powered by Gemini 2.5 Flash Image that turns one uploaded photo into platform-ready assets for Amazon, Flipkart, Instagram, Spotify, and more — with in-place AI re-editing via chat instructions.
+`Python` · ⭐ 1 · 🍴 2
+
+</td>
+<td width="50%">
+
+**[react-scroll-media](https://github.com/iam-saiteja/react-scroll-media)**
+Lightweight React library for cinematic scroll-driven image sequences — eager/lazy frame loading, TypeScript support, SSR-safe, built-in accessibility (respects `prefers-reduced-motion`).
+`TypeScript`
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><strong>Other repositories</strong></summary>
+<br>
+
+- **[Windows-MCP](https://github.com/iam-saiteja/Windows-MCP)** — contributing to an MCP server for computer-use automation on Windows
+- **[ailang-py](https://github.com/iam-saiteja/ailang-py)** — Python project
+- **[Event-Ticket-Booking-System](https://github.com/iam-saiteja/Event-Ticket-Booking-System)**, **[Buzzer](https://github.com/iam-saiteja/Buzzer)**, **[SmartFarm](https://github.com/iam-saiteja/SmartFarm)**, **[Chaff](https://github.com/iam-saiteja/Chaff)** — earlier web/coursework projects
+
+</details>
 
 ---
 
-## 📊 GitHub Stats
+## Tech Stack
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![CUDA](https://img.shields.io/badge/-CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/-Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+
+---
+
+## GitHub Stats
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=iam-saiteja&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iam-saiteja&layout=compact&theme=tokyonight&hide_border=true" />
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=iam-saiteja&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iam-saiteja&layout=compact&theme=github_dark&hide_border=true" />
+
+<br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=iam-saiteja&theme=github-dark-blue&hide_border=true" />
+
 </div>
 
 ---
 
-## 🔬 Research Interests
+## Currently
 
-- 🧬 **Memory architectures** for AI agents (episodic, hierarchical, delta-based)
-- 🛡️ **AI Safety** and alignment in superintelligent systems
-- ⚡ **Efficient inference** on resource-constrained hardware (4GB VRAM)
-- 🔭 **Computer Vision** — object detection, SSD MobileNet
-- 🧩 **LLM internals** — quantization, fine-tuning, prompt engineering
-
----
-
-## 📫 Connect
-
-<p align="center">
-  <a href="https://github.com/iam-saiteja">
-    <img src="https://img.shields.io/badge/GitHub-iam--saiteja-181717?style=flat&logo=github" />
-  </a>
-</p>
+- 🔬 Iterating on **ZS-ISAB** toward TMLR submission — resolving TabICL baseline verification and regenerating figures against the current seeded-anchor architecture
+- 📊 Running a 91-dataset **TabZilla benchmark** against tree-based baselines
+- 🧪 Prototyping the row-ordering problem for fusing **MiniMax Sparse Attention** into a TabPFN-style tabular foundation model
+- 📝 Open to research collaborations on efficient attention, memory-augmented architectures, and consumer-hardware ML systems
 
 ---
 
 <div align="center">
-  <i>"Build what doesn't exist yet."</i>
+<i>Not currently obsessed with anything — everything above is currently obsessing me.</i>
 </div>
