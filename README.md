@@ -168,9 +168,8 @@ Lightweight React library for cinematic scroll-driven image sequences -- eager/l
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=iam-saiteja&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iam-saiteja&layout=compact&theme=github_dark&hide_border=true" />
-
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=iam-saiteja&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=iam-saiteja&layout=compact&theme=github_dark&hide_border=true" />
 <br>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=iam-saiteja&theme=github-dark-blue&hide_border=true" />
