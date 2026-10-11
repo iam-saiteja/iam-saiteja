@@ -16,7 +16,7 @@
 
 ## About Me
 
-I'm a B.Tech Computer Science (Data Science) student at **BVRIT Hyderabad**, currently working as **Tech Lead at Stud Entertainments**, with prior internship experience at **AWS, IBM, and Google**. Outside of coursework and internships, I run an independent research track focused on making large-model architectures -- attention, memory, inference -- work under real hardware constraints instead of just on paper.
+I'm a B.Tech Computer Science (Data Science) student at **B V Raju Institute Of Technology, Narsapur**. Outside of coursework and internships, I run an independent research track focused on making large-model architectures -- attention, memory, inference -- work under real hardware constraints instead of just on paper.
 
 Most of what is here falls into four buckets:
 
